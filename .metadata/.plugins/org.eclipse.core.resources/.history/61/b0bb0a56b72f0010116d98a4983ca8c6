@@ -1,0 +1,15 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ContactController {
+	public String index() {
+		return "contactForm";
+	}
+	
+	public String contact() {
+		return "contactResult";
+	}
+	
+}

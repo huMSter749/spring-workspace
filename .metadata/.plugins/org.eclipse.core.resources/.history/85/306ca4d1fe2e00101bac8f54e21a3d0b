@@ -1,0 +1,21 @@
+package com.example.demo.controller;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+public class HelloController {
+
+	@GetMapping("/hello")
+	public String input() {
+		return "input";
+	}
+	
+	@PostMapping("/hello")
+	public String show(@RequestParam("name") String message, Model model) {
+		model.addAttribute("memo", message);
+		return "hello";
+	
+
+}

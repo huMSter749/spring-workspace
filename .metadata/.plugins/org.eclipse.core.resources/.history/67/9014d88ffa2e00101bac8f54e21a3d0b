@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Input</title>
+</head>
+<body>
+	<form action="/hello" method="get">
+		名前：</br>
+		<input type="text" name="msg1">
+		年齢：</br>
+		<input type="number" name="msg2">
+		趣味：<br>
+		<textarea name="msg3">
+		<button>送信</button>
+	</form>
+</body>
+</html>

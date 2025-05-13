@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>hello</title>
+</head>
+<body>
+	<h1>自己紹介</h1>
+	<p th:text="${memo}"></p>
+	<p th:text="${memo2}"></p>
+	
+	<p th:text="${memo3}"></p>
+
+</body>
+</html>
