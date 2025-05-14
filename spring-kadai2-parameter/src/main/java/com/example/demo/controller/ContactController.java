@@ -44,7 +44,7 @@ public class ContactController {
 			return "contactForm";
 		}
 
-		//model.addAttribute("email", email);
+		model.addAttribute("email", email);
 		model.addAttribute("lang", langList);
 		//model.addAttribute("dueDate", dueDate);
 		//model.addAttribute("detail", detail);
